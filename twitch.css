@@ -1,0 +1,87 @@
+body {
+  background-color: rgb(242, 242, 242); /*hsb(0,0,95)*/
+}
+
+h1 {
+  text-align: center;
+  color: rgb(11, 29, 38); /*hsb(200, 71, 15)*/
+}
+
+h3, p {
+  padding: 35px 0px 35px 0px;
+  text-align: left;
+}
+
+p {
+  color: rgba(11, 29, 38, .75); /*hsba(200, 71, 15, .75)*/
+}
+
+.header {
+  background-color: rgb(56, 142, 190); /*hsb(201, 71, 75)*/
+}
+
+.streamer {
+  margin: 10px 10px 10px 10px;
+  background-color: rgb(71, 138, 204); /*hsb(210, 65, 80)*/
+  padding: 0px 0px 0px 50px;
+  height: 110px;
+}
+
+.no-streamer {
+  margin: 10px 10px 10px 10px;
+  background-color: rgb(173, 43, 43); /*hsb(0, 75, 68)*/
+  padding: 0px 0px 0px 50px;
+  height: 110px;
+  width: 1140px;
+  color: rgb(11, 29, 38); /*hsb(200, 71, 15)*/
+}
+
+.logo {
+  margin: 3px 0px 3px 0px;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+div.streamer a {
+  color: rgb(11, 29, 38); /*hsb(200, 71, 15)*/
+}
+
+.streamer:hover {
+  transform: scale(1.1);
+  background-color: rgb(87, 163, 217); /*hsb(205, 60, 85)*/
+}
+
+.no-streamer:hover {
+  transform: scale(1.1);
+  background-color: rgb(204, 68, 61); /*hsb(3, 70, 80)*/
+}
+
+#ActiveStreamers, #NoStreamers {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#ActiveStreamers .obfuscate, #NoStreamers .obfuscate {
+  display: none; 
+}
+
+#All {
+  margin-bottom: 10px;
+  padding: 10px 10px 10px 10px;
+  width: 80.25px;
+  height: 38px;
+  color: rgb(11, 29, 38); /*hsb(200, 71, 15)*/
+}
+
+#Online {
+  margin-bottom: 10px;
+  color: rgb(11, 29, 38); /*hsb(200, 71, 15)*/
+}
+
+#Offline {
+  margin-bottom: 10px;
+  width: 80.25px;
+  height: 38px;
+  color: rgb(11, 29, 38); /*hsb(200, 71, 15)*/
+}
