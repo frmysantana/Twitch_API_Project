@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
+		<title>FCC Twitch API Project</title>
+		<link rel="stylesheet" href="./twitch.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+	</head>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="./twitch.js"></script>
+	<body>
+		<div class="container-fluid">
+			<div class="header">
+				<h1>Twitch Streamers</h1>
+				<div class="row buttons justify-content-center">
+					<div class="col-12 col-md-auto">
+						<button id="All" type="button" class="btn">All</button>
+					</div>
+					<div class="col-12 col-md-auto">
+						<button id="Online" type="button" class="btn">Online</button>
+					</div>
+					<div class="col-12 col-md-auto">
+						<button id="Offline" type="button" class="btn">Offline</button>
+					</div>
+				</div>
+			</div>
+			<div id="ActiveStreamers"></div>
+			<div id="NoStreamers"></div>
+		</div>
+	</body>
+</html>
