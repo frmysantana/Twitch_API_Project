@@ -21,14 +21,15 @@ p {
 }
 
 .streamer {
-  margin: 10px 10px 10px 10px;
+  margin: 10px auto;
   background-color: rgb(71, 138, 204); /*hsb(210, 65, 80)*/
   padding: 0px 0px 0px 50px;
+  width: 1140px;
   height: 110px;
 }
 
 .no-streamer {
-  margin: 10px 10px 10px 10px;
+  margin: 10px auto;
   background-color: rgb(173, 43, 43); /*hsb(0, 75, 68)*/
   padding: 0px 0px 0px 50px;
   height: 110px;
@@ -58,8 +59,7 @@ div.streamer a {
 }
 
 #ActiveStreamers, #NoStreamers {
-  margin-left: auto;
-  margin-right: auto;
+  margin: 10px auto;
 }
 
 #ActiveStreamers .obfuscate, #NoStreamers .obfuscate {
