@@ -2,7 +2,6 @@
 Last modified: September 18, 2017.
 
 A page displaying the twitch streaming status of several users.
-Created as part of the FreeCodeCamp curriculum. 
 
 Future: Experiment with animations.
 
